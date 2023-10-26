@@ -6,7 +6,7 @@ We took some decisions to improve the productivity of the development, such as:
 - Knex as query builder, because it is easy to use and it is compatible with SQLite.
 - Bun as JavaScript runtime, because it is fast and ir was the perfect opportunity to apply it into a project.
 - Created the get/set methods even thought is not needed in JS, because the generator can be edited in the future to run some validations in the setters.
-
+- n:m relations are not supported at this time, but it can be easily implemented in the future.
 
 
 ## Usage
