@@ -28,9 +28,13 @@ To run:
 bun odl-parser -i <input-file> -o <output-dir>
 ```
 
-This project was created using `bun init` in bun v1.0.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## How it works
 
+The generator have 3 main steps:
 
+- Parse the ODL file to generate a AST (Abstract Syntax Tree) in JSON using a home built parser.
+- Generate the JS class using the AST.
+- Generate the SQL script to create the table using the AST considering relations.
 
 ## Examples
 
