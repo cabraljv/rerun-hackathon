@@ -1,0 +1,27 @@
+
+
+struct Pessoa
+{
+    attribute string name
+    attribute Endereco endereco    
+}
+
+struct Endereco
+{
+    attribute string logradouro
+    attribute string complemento
+    attribute string bairro
+    attribute string cidade
+    attribute string estado
+    attribute string cep
+}
+
+struct PessoaFisica extends Pessoa
+{
+    attribute string cpf
+    /*
+    sayHello(){
+        console.log("Hello")
+    }
+    */
+}
