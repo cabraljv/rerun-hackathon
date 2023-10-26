@@ -5,6 +5,8 @@ We took some decisions to improve the productivity of the development, such as:
 - SQLite as database, because it is easy to use and we don't need to install any database server.
 - Knex as query builder, because it is easy to use and it is compatible with SQLite.
 - Bun as JavaScript runtime, because it is fast and ir was the perfect opportunity to apply it into a project.
+- Created the get/set methods even thought is not needed in JS, because the generator can be edited in the future to run some validations in the setters.
+
 
 
 ## Usage
